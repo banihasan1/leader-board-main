@@ -1,0 +1,117 @@
+/* xs display */
+@media screen and (max-width: 576px){
+    body{
+        background-color: #F3F1FF;
+    }
+   /* header section responsive */
+     .header-container{
+        margin: 0px 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo{
+       padding-top: 20px;
+       justify-content: center;
+    }
+    .logo img{
+        max-width: 20%;
+    }
+    /* top-player style start */
+    .main-container{
+        padding: 10px 48px;
+        margin: 20px 0px 0px 0px;
+        background-color:#FFFFFF;
+        border-radius:10px;
+    }
+        
+    .player-info{
+        grid-template-columns:repeat(1, 1fr) ;
+    }
+    
+/* top blog style start */
+.top-blog{
+    padding:0px 0px;
+}
+.top-blog-info{
+    grid-template-columns: repeat(1, 1fr);
+    gap:30px;
+
+}
+
+.blog-itme{
+    gap:10px;
+}
+.blog-itme img{
+    max-width:40%;
+}
+.blog-itme h3{
+    font-weight: 500;
+    font-size:15px;
+    line-height:30px;
+}
+
+/* lares course section start  */
+.footer-section{
+    padding: 10px 48px;
+    margin: 20px 0px 0px 0px;
+    background-color:#FFFFFF;
+    border-radius:10px;
+}
+.course-info{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+}
+/* sm display */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    body{
+        background-color: #F3F1FF;
+    }
+    /* header section responsive */
+    .header-container{
+        margin: 0px 100px;
+    }
+    /* top-player style start */
+     .main-container{
+        margin: 20px 100px;
+        padding: 10px 40px;
+        background-color:#FFFFFF;
+        border-radius:10px;
+    }
+        
+    .player-info{
+        grid-template-columns:repeat(2, 1fr) ;
+    }
+        
+    /* top blog style start */
+    .top-blog{
+        padding:0px 0px 20px 0px;
+    }
+    .top-blog-info{
+        grid-template-columns: repeat(1, 1fr);
+        gap:40px;
+
+    }
+    .blog-itme{
+        gap:20px;
+    }
+    .blog-itme img{
+        max-width:50%;
+    }
+    .blog-itme h3{
+        font-weight:800;
+        font-size:20px;
+        line-height:30px;
+    }
+    /* lares course section start  */
+    .footer-section{
+        margin: 20px 100px;
+        padding: 10px 40px;
+        background-color:#FFFFFF;
+        border-radius:10px;
+    }
+    .course-info{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}
